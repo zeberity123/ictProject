@@ -1,5 +1,6 @@
 -- 07. 남성보다 여성의 수가 가장 많은 지역 구하기
 -- 전국의 각 읍/면/동 기준 남성의 수보다 여성의 수가 가장 많은 지역을 구한다.
+USE basic_query;
 SELECT C.*
 FROM (SELECT A.ADMINIST_ZONE_NO
            , A.ADMINIST_ZONE_NM
@@ -65,3 +66,4 @@ SELECT B.*
                 ) A
         ) B
 WHERE B.남성인구비율순위 = 1 OR B.여성인구비율순위 = 1;
+
