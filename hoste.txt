@@ -1,0 +1,5 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host AWS_ICT
+    HostName ec2-3-35-203-154.ap-northeast-2.compute.amazonaws.com
+    User ubuntu
+    IdentityFile C:\Users\Darudayu\.ssh\ict-student-key.pem
