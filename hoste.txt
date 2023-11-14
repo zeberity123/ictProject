@@ -14,3 +14,8 @@ ict0911_06
 ict-student-key.pem
 
 ssh -i ict-student-key.pem ubuntu@ec2-3-35-203-154.ap-northeast-2.compute.amazonaws.com
+
+네이티브 앱 키	89bf3630bb8ead8a0f47a40c59fcc7b0
+REST API 키	46bbf3dbb2f3228086030c2f60818025
+JavaScript 키	926de74b4af5648b2e62fd3f98258532
+Admin 키	720701418d0bd4eae644898afa82fb61
